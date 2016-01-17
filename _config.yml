@@ -1,4 +1,9 @@
 url: /thejollymoon
+social:
+        facebook: https://www.facebook.com/thejollymoon
+        instagram: https://www.instagram.com/the_jolly_moon
+        pinterest: https://www.pinterest.com/thejollymoon
+        hellocoton: http://www.hellocoton.fr/mapage/thejollymoon
 sass:
         sass_dir: _scss
         style: compressed

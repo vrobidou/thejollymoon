@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -12,11 +14,51 @@
 </head>
 <body>
 <header>
-	<nav>
-	</nav>
+	<div class="container">
+		<aside class="social">
+			<ul>
+				<li><a href="{{ site.social.facebook }}" target="_blank"><span class="icon-facebook" aria-hidden="true"></span><span class="hidden">Facebook</span></a></li>
+				<li><a href="{{ site.social.instagram }}" target="_blank"><span class="icon-instagram" aria-hidden="true"></span><span class="hidden">Instagram</span></a></li>
+				<li><a href="{{ site.social.pinterest }}" target="_blank"><span class="icon-pinterest" aria-hidden="true"></span><span class="hidden">Pinterest</span></a></li>
+				<li><a href="{{ site.social.hellocoton }}" target="_blank"><span class="icon-hellocoton" aria-hidden="true"></span><span class="hidden">Hellocoton</span></a></li>
+			</ul>
+		</aside>
+		<aside class="info">
+			<ul>
+				<li><a href="{{ site.url }}/a-propos">À Propos</a></li>
+				<li><a href="{{ site.url }}/contact">Contact</a></li>
+				<li><a href="{{ site.url }}/le-guide">Le guide</a></li>
+			</ul>
+		</aside>
+		<a href="{{ site.url }}" class="logo"></a>
+		<nav class="menu">
+			<ul>
+				<li><a href="{{ site.url }}/collections">Collections</a></li>
+				<ul>
+					<li><a href="{{ site.url }}/collections/mariages-et-unions">Mariages et unions</a></li>
+					<li><a href="{{ site.url }}/collections/naissances">Naissances</a></li>
+					<li><a href="{{ site.url }}/collections/anniversaires">Anniversaires</a></li>
+					<li><a href="{{ site.url }}/collections/voeux">Voeux</a></li>
+					<li><a href="{{ site.url }}/collections/kids">Kids</a></li>
+					<li><a href="{{ site.url }}/collections/deco">Déco</a></li>
+				</ul>
+				<li><a href="{{ site.url }}/sur-mesure">Sur mesure</a></li>
+				<ul>
+					<li><a href="{{ site.url }}/sur-mesure/mariages-et-unions">Mariages et unions</a></li>
+					<li><a href="{{ site.url }}/sur-mesure/naissances">Naissances</a></li>
+					<li><a href="{{ site.url }}/sur-mesure/anniversaires">Anniversaires</a></li>
+					<li><a href="{{ site.url }}/sur-mesure/voeux">Voeux</a></li>
+				</ul>
+				<li><a href="{{ site.url }}/portaits">Portraits</a></li>
+				<li><a href="{{ site.url }}/la-gazette">La gazette</a></li>
+			</ul>
+		</nav>
+	</div>
 </header>
 <main>
-	<h1>The Jolly Moon</h1>
+	<div class="container">
+		<h1>The Jolly Moon</h1>
+	</div>
 </main>
 <footer>
 </footer>

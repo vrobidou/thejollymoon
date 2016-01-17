@@ -1,0 +1,36 @@
+header {
+	.social {
+		float: left;
+	}
+	.info {
+		float: right;
+	}
+	.logo {
+		display: block;
+		width: 350px;
+		height: 270px;
+		margin: 0 auto;
+		background-color: $background-color;
+		background-image: url(http://placehold.it/150x150), url(http://placehold.it/350x100);
+		background-repeat: no-repeat, no-repeat;
+		background-position: top center, bottom center;
+	}
+	.menu {
+	}
+	.social, .info, .menu {
+		ul {
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			list-style-type: none;
+
+			li {
+				float: left;
+
+				a {
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}

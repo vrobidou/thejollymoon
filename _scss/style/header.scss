@@ -1,36 +1,26 @@
 header {
-	.social {
-		float: left;
+	margin: 20px 0;
+
+	.container {
+		background-image: url(../images/line.png);
+		background-repeat: repeat-x;
+		background-size: 1px 90px;
+		background-position: 0 130px;
 	}
-	.info {
-		float: right;
-	}
+
 	.logo {
 		display: block;
-		width: 350px;
-		height: 270px;
+		width: 300px;
+		height: 220px;
 		margin: 0 auto;
 		background-color: $background-color;
-		background-image: url(http://placehold.it/150x150), url(http://placehold.it/350x100);
+		background-image: url(../images/moon.png), url(../images/logo.svg);
 		background-repeat: no-repeat, no-repeat;
+		background-size: 110px 110px, 250px 90px;
 		background-position: top center, bottom center;
 	}
-	.menu {
-	}
+
 	.social, .info, .menu {
-		ul {
-			margin: 0;
-			padding: 0;
-			overflow: hidden;
-			list-style-type: none;
-
-			li {
-				float: left;
-
-				a {
-					text-decoration: none;
-				}
-			}
-		}
+		display: none;
 	}
 }

@@ -1,6 +1,8 @@
 ---
 ---
 {% include css/normalize.css %}
+@import 'style/mixins/link';
+@import 'style/mixins/list';
 @import 'style/variables';
 @import 'style/global';
 @import 'style/icon';

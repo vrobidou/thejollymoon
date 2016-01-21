@@ -20,7 +20,32 @@ header {
 		background-position: top center, bottom center;
 	}
 
-	.social, .info, .menu {
+	.social {
+		float: left;
+		margin: 38px 0;
+		font-size: 2.4em;
+
+		@include list-horizontal(15px);
+
+		a {
+			@include link-color($alt-dark-color, darken($alt-dark-color, 20%));
+		}
+	}
+
+	.info {
+		float: right;
+		margin: 47px 0;
+		font-size: 1.2em;
+
+		@include list-horizontal(15px);
+
+		a {
+			@include link-color(lighten($text-color, 20%), $text-color);
+		}
+	}
+
+	.menu {
+		clear: both;
 		display: none;
 	}
 }
